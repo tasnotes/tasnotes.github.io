@@ -16,7 +16,7 @@ timezone: America/Chicago
 
 title: Ta's Notes # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: bruh got this stupid site to finally publish # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Site in progress.
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://tasnotes.com"
 
 github:
-  username: tasnotes.github.io # change to your GitHub username
+  username: https://github.com/tasnotes # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -35,19 +35,19 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ta 
-  email: example@domain.com # change to your email address
+  email:  # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/tasnotes # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: # google-site-verification=uD0IW9xIj9t0M-Wa_TX1iuYO2quWWI3ZekJfbojhFsc
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -60,7 +60,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-SHT1RJ0C27
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -76,7 +76,8 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: <script data-goatcounter="https://tamoo.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 # Prefer color scheme setting.
 #
@@ -126,8 +127,15 @@ comments:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: tasnotes/tasnotes.github.io
+    issue_term: <script src="https://utteranc.es/client.js"
+        repo="tasnotes/tasnotes.github.ioo="
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
