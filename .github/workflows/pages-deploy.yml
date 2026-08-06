@@ -61,10 +61,14 @@ jobs:
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
-  deploy: 
-    timeout-minutes: 30 
-    environment: 
-      name: github-pages 
+  deploy:
+    timeout-minutes: 30
+    environment:
+      name: github-pages
       url: https://tasnotes.com
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
