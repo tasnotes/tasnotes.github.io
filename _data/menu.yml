@@ -2,12 +2,11 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: about
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: ahem, its ta. site in progress...
+      - title: github account
+        url: https://github.com/tasnotes
 
   - title: all posts
     post_list:
@@ -22,17 +21,24 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: example2-archive.html
-
-  - title: rss
-    url: feed.xml
   
-  - title: another list
+  - title: photography?
     entries:
-      - title: with subitems
+      - title: maybe?
         entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
+          - title: maybe.
+            url: https://www.instagram.com/p/DXxgeHxj5Wt?__pwa=1
+  
+  - title: art?
     entries:
-      - title: to edit this menu, edit _data/menu.yml file
+    - title: maybe.
+
+  - title: notes
+    entries:
+      - title: calculus
+        url: calculus
+      - title: physics
+        url: physics
+      - title: proofs&logic
+        url: logic
+
