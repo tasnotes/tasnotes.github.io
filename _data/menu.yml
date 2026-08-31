@@ -5,8 +5,6 @@ entries:
   - title: about
     entries:
       - title: ahem, its ta. site in progress...
-      - title: github account
-        url: https://github.com/tasnotes
 
   - title: all posts
     post_list:
@@ -20,7 +18,6 @@ entries:
       - title: maybe?
         entries:
           - title: maybe.
-            url: https://www.instagram.com/p/DXxgeHxj5Wt?__pwa=1
   
   - title: art?
     entries:
@@ -34,4 +31,5 @@ entries:
         url: physics
       - title: proofs&logic
         url: logic
+
 
