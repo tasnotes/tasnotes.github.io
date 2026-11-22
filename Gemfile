@@ -9,5 +9,8 @@ gem "bigdecimal"
 gem "base64"
 gem "logger"
 gem 'wdm', '>= 0.1.0'
+group :jekyll_plugins do
+gem 'jekyll_img'
+end
 
 gemspec
