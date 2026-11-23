@@ -8,4 +8,4 @@ i freeze, then suddenly blurt out, "kill me."
 intrusive memories, embarrassing memories. 
 that one memory you had buried many levels 
 deep in shame. never one maybe two, never complacent.
-. need i say more? kill me.
+ need i say more? kill me.
